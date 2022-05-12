@@ -1,0 +1,38 @@
+main{
+    padding: 0px 15%;
+}
+.heroe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.heroe__info{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-right: 80px;
+}
+.heroe__titulo{
+    text-align: start;
+
+}
+.heroe__perfil {
+    width: 400px;
+    height: 400px;
+}
+.experiencia__contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.experiencia__contenedor div{
+    margin-top: 0;
+}
+.formulario__asunto,
+.formulario__mensaje{
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.formulario .boton{
+    max-width: 50%;
+    width: 100%;
+}
